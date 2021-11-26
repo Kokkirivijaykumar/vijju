@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class ArraysNames {
 
 		 public static void main(String args[]){  
-		      ArrayList<String> alist=new ArrayList<String>();  
+		      ArrayList<String> alist =new ArrayList<String>();  
 		      alist.add("Vijay");
 		      alist.add("Madhu");
 		      alist.add("Suresh");
