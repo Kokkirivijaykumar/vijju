@@ -1,21 +1,18 @@
-package Constructors;
+package com.technoelevate.programs;
 
 public class MainMethod {
-
 	public static void main(String[] args) {
-Account anshu = new Account(101, "Jeigyanshu", 1008981828, "Jeigyanshu@gmail.com", "7019344265");
-Account a1 = new Account("Jeigyanshu", "Jeigyanshu@gmail.com", "7019344625");
-System.out.println(a1.getAccountNumber());
-System.out.println(a1.getCustomerName());
-System.out.println(a1.getBalance());
-System.out.println(a1.getCustomerEmailAddress());
-System.out.println(a1.getCustomerPhoneNumber());
-System.out.println(a1.getDebitCardNumber());
-
+		Program pr = new Program();
+		System.out.println(pr.doit());
+		System.out.println(pr.names("Illias"));
+		System.err.println(pr.multiple(12, 12));
+		pr.run();
 		
-
-	
-
-	}
-
+		System.out.println(Program.Dontgiveup());
+		Program.life();
+		System.out.println(Program.name("Illias", "Gnaneswar"));
+        System.out.println(Program.vijju("vijay"));
+        Program.vijay();
+		System.out.println(Program.sub(20, 10));
+	}	
 }
